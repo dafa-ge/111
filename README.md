@@ -140,7 +140,7 @@ python -m app.web.server          # 或双击 启动面板.bat
 | 拒答（未找到条款） | 约 1 分钟 |
 | 回归集通过率 | 10/10（含 2 条拒答） |
 
-单测（不依赖 Ollama）：`pytest tests/` —— 鉴权 12 例、护栏 16 例、记忆 13 例、Agent 10 例。
+单测（标准库 `unittest`，不依赖 Ollama）：`python -m unittest discover -s tests` —— 51 例，0.3 秒全通过（鉴权 12 / 护栏 16 / 记忆 13 / Agent 10）。
 
 ## 已知限制（很重要，别拿去直接上线）
 
