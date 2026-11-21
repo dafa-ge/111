@@ -163,7 +163,7 @@ app/
   guardrail.py 三级词表与前后置校验
   logger.py    审计日志
 scripts/       环境自检、冒烟测试、建账号、启动辅助
-tests/         4 个 pytest 文件 + 回归问答集
+tests/         4 个 unittest 文件（51 例）+ 回归问答集
 demo_docs/     虚构的示例制度文档
 docs/          技术设计与踩坑记录
 ```
