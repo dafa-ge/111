@@ -1,0 +1,24 @@
+{
+  "_note": "演示用员工档案。annual_total 依据《考勤、加班、休假管理办法》：满1年不满10年5天，满10年不满20年10天，满20年15天。",
+  "_default_user": "U001",
+  "U001": {
+    "name": "张三",
+    "post": "市场岗",
+    "dept": "商务部",
+    "hire_date": "2023-03-01",
+    "work_years": 4,
+    "annual_total": 5,
+    "annual_used": 2,
+    "annual_left": 3
+  },
+  "U002": {
+    "name": "李四",
+    "post": "技术岗",
+    "dept": "研发部",
+    "hire_date": "2014-07-01",
+    "work_years": 12,
+    "annual_total": 10,
+    "annual_used": 6,
+    "annual_left": 4
+  }
+}

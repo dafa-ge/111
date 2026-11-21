@@ -1,0 +1,12 @@
+[
+  {"q": "辰星科技市场岗省内出差住宿标准是多少？", "expect_source": "费用报销", "expect_keywords": ["350", "市场岗"]},
+  {"q": "职能岗省外出差住宿上限是多少？", "expect_source": "费用报销", "expect_keywords": ["320"]},
+  {"q": "报销金额超过10000元需要谁审批？", "expect_source": "费用报销", "expect_keywords": ["总经理"]},
+  {"q": "报销发票抬头必须写什么？", "expect_source": "费用报销", "expect_keywords": ["辰星科技有限公司"]},
+  {"q": "试用期最长可以是多久？", "expect_source": "员工手册", "expect_keywords": ["6个月"]},
+  {"q": "离职需要提前几天提交申请？", "expect_source": "入职转正离职", "expect_keywords": ["30天"]},
+  {"q": "社保从什么时候开始缴纳？", "expect_source": "社保公积金", "expect_keywords": ["转正"]},
+  {"q": "住房公积金公司和个人缴纳比例各是多少？", "expect_source": "社保公积金", "expect_keywords": ["8%"]},
+  {"q": "食堂几点开饭？", "should_refuse": true},
+  {"q": "公司有没有股票期权？", "should_refuse": true}
+]

@@ -1,0 +1,21 @@
+{
+  "_note": "演示账号。password 是 pbkdf2 哈希，改密码用 scripts\\make_user.py 账号 新密码",
+  "U001": {
+    "name": "张三",
+    "role": "employee",
+    "post": "市场岗",
+    "password": "pbkdf2$100000$f9648177e851817b227506f45de2ec77$a57e56928bb029ab5312d1e6663e440a3dc7acc037f3108654e27c9210a6390a"
+  },
+  "U002": {
+    "name": "李四",
+    "role": "employee",
+    "post": "技术岗",
+    "password": "pbkdf2$100000$4db82dde535565ea7cd829820c6da665$4660c11dd145c15bdbf2f58f5961f9a435e2787efdcb8b8e50e5cbb86484247a"
+  },
+  "admin": {
+    "name": "管理员",
+    "role": "admin",
+    "post": "管理员",
+    "password": "pbkdf2$100000$53db00dd7d4c5a271d05ed43e1b038f7$a3ee15422ec42710d65a60c387c37158de6c0d3bddc17f4eedbb090467be7e2b"
+  }
+}
